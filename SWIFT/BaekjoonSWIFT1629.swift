@@ -1,34 +1,12 @@
 let num = readLine()!.split(separator: " ").map { Int(String($0))! }
 let A = num[0]; let B = num[1]; let C = num[2];
-var pattern = [Int]()
-var remain = 1
-var answer = 0
-var flag = true
 
-while true {
-    remain = (remain * (A % C)) % C
-    print(remain)
-    if remain == 0 {
-        flag = false
-        answer = 0
-        break
-    } else if remain == 1 {
-        pattern.append(remain)
-        break
-    } else if pattern.contains(remain) {
-        if pattern.last! == remain {
-            answer = pattern.last!
-            flag = false
-        }
-        break
-    } else {
-        pattern.append(remain)
-    }  
+func POW(_ A: Int, _ B: Int, _ C: Int) -> Int {
+    if B == 1 { return A }
+    var tmp = POW(A, B / 2, C)
+    if B % 2 == 1 { return ((tmp * tmp) % C * A) % C }
+    else if B % 2 == 0 { return (tmp * tmp) % C}
+    return 0
 }
 
-if !flag {
-    print(answer)
-} else {
-    answer = pattern[((B % pattern.count) - 1 + pattern.count) % pattern.count]
-    print(answer)
-}
+print(POW(A % C, B, C))
