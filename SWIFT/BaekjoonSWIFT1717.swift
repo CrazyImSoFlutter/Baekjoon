@@ -16,8 +16,8 @@ func findParent(_ a: Int) -> Int {
 }
 
 func makeUnion(_ a: Int, _ b: Int) {
-    let pa = findParent(a);
-    let pb = findParent(b);
+    let pa = findParent(a)
+    let pb = findParent(b)
 
     if pa > pb {
         parent[pa] = pb
