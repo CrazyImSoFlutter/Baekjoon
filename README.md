@@ -11,7 +11,7 @@
 |1019번|책 페이지|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1019.html)|
 |1021번|회전하는 큐|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1021.html)|
 |1065번|한수|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/29/problem-solve-1065.html)|
-|1149번|||
+|1149번|RGB거리|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/31/problem-solve-1149.html)|
 |1152번|||
 |1157번|||
 |1167번|||
