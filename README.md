@@ -64,6 +64,7 @@
 |5427번|불|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-5427.html)|
 |5430번|||
 |5622번|||
+|5639번|||
 |7569번|||
 |8958번|||
 |9020번|골드바흐의 추측|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-9020.html)|
