@@ -14,7 +14,7 @@
 |1149번|RGB거리|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/31/problem-solve-1149.html)|
 |1152번|단어의 개수|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/01/problem-solve-1152.html)|
 |1157번|단어 공부|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/01/problem-solve-1157.html)|
-|1167번|||
+|1167번|트리의 지름|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/02/problem-solve-1167.html)|
 |1181번|||
 |1254번|||
 |1260번|||
