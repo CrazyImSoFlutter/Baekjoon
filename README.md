@@ -62,6 +62,7 @@
 |4803번|트리|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/29/problem-solve-4803.html)|
 |4948번|베르트랑 공준|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-4948.html)|
 |4949번|||
+|5052번|||
 |5427번|불|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-5427.html)|
 |5430번|||
 |5622번|||
