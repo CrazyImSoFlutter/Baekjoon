@@ -8,6 +8,7 @@
 |문제 번호|문제 이름|풀이 링크|
 |-------|-------|-------|
 |1011번|Fly me to the Alpha Centauri|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1011.html)|
+|1012번|||
 |1019번|책 페이지|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1019.html)|
 |1021번|회전하는 큐|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1021.html)|
 |1065번|한수|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/29/problem-solve-1065.html)|
