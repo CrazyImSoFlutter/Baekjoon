@@ -70,7 +70,6 @@ struct priorityQ {
         heap[index] = lastNode
         return itemNode.0
     }
-
 }
 
 func dijkstra(_ start: Int) {
