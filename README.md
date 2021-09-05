@@ -21,7 +21,7 @@
 |1181번|단어 정렬|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/02/problem-solve-1181.html)|
 |1254번|||
 |1260번|||
-|1316번|||
+|1316번|그룹 단어 체커|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/04/problem-solve-1316.html)|
 |1334번|||
 |1339번|||
 |1427번|||
