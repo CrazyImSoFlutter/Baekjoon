@@ -1,26 +1,16 @@
-import Foundation
-
-let t = Int(readLine()!)!
-
-for _ in 0..<t {
+for _ in 0..<Int(readLine()!)! {
     let n = Int(readLine()!)!
-    var strArr = [String]()
+    var strArr = Array(repeating: "", count: n)
     var flag = true
-    for _ in 0..<n {
-        strArr.append(readLine()!)
+    for i in 0..<n {
+        strArr[i] = readLine()!
     }
-    strArr.sort(by: <)
-    for i in 0..<n - 1 {
-        if strArr[i].count < strArr[i + 1].count {
-            if strArr[i + 1].hasPrefix( strArr[i]) {
-                flag = false
-                break
-            }
+    strArr.sort()
+    for i in stride(from: 0, to: n - 1, by: 1) {
+        if strArr[i + 1].hasPrefix( strArr[i]) {
+            flag = false
+            break
         }
     }
-    if flag {
-        print("YES")
-    } else {
-        print("NO")
-    }
+    print(flag ? "YES" : "NO")
 }
