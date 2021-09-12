@@ -1,5 +1,5 @@
-# Baekjun BOJ 백준  
-**Baekjun Solve**  
+# Baekjoon BOJ 백준  
+**Baekjoon Solve**  
 
 
 **여기에 올리는 소스들은 모두 정답처리를 확인 받은 것들입니다.**  
