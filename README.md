@@ -7,6 +7,7 @@
 ## Swift로 푼 문제들
 |문제 번호|문제 이름|풀이 링크|
 |-------|-------|-------|
+|1005번|||
 |1011번|Fly me to the Alpha Centauri|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1011.html)|
 |1012번|||
 |1019번|책 페이지|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1019.html)|
