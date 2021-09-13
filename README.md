@@ -20,6 +20,7 @@
 |1068번|트리|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/02/problem-solve-1068.html)|
 |1074번|Z|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/03/problem-solve-1074.html)|
 |1181번|단어 정렬|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/02/problem-solve-1181.html)|
+|1197번|||
 |1254번|||
 |1259번|||
 |1260번|||
@@ -32,6 +33,7 @@
 |1463번|||
 |1546번|||
 |1629번|||
+|1647번|||
 |1654번|||
 |1707번|||
 |1717번|집합의 표현|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-1717.html)|
