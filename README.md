@@ -57,8 +57,8 @@
 |2178번|미로 탐색|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/10/problem-solve-2178.html)|
 |2206번|||
 |2292번|||
-|2346번|||
-|2407번|||
+|2346번|풍선 터뜨리기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/09/problem-solve-2346.html)|
+|2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
 |2442번|||
 |2562번|||
 |2565번|||
