@@ -41,7 +41,7 @@
 |1753번|최단경로|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/05/problem-solve-1753.html)|
 |1759번|||
 |1786번|||
-|1806|||
+|1806번|||
 |1821번|||
 |1865번|웜홀|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/12/problem-solve-1865.html)|
 |1874번|||
