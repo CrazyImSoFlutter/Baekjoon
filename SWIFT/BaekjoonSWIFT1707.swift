@@ -2,7 +2,7 @@ let K = Int(readLine()!)!
 
 func dfs(_ from: Int, _ visit: inout [Bool],  _ color: inout [Bool], _ graph: inout [[Int]], _ isBi: inout Bool) {
     visit[from] = true
-    
+
     let len = graph[from].count
     for i in 0..<len {
         let node = graph[from][i]
@@ -28,7 +28,7 @@ for _ in 0..<K {
         graph[tmp[0]].append(tmp[1])
         graph[tmp[1]].append(tmp[0])
     }
-    
+   
     for i in 1...V {
         if visit[i] == false {
             dfs(i, &visit, &color, &graph, &isBi)
