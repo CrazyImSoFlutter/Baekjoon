@@ -21,6 +21,7 @@
 |1074번|Z|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/03/problem-solve-1074.html)|
 |1181번|단어 정렬|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/02/problem-solve-1181.html)|
 |1197번|||
+|1202번|||
 |1254번|||
 |1259번|||
 |1260번|||
