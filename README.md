@@ -55,6 +55,7 @@
 |1967번|트리의 지름|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1967.html)|
 |1991번|트리 순회|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/30/problem-solve-1991.html)|
 |2108번|||
+|2143번|||
 |2156번|||
 |2164번|||
 |2178번|미로 탐색|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/10/problem-solve-2178.html)|
