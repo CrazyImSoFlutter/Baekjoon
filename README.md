@@ -69,6 +69,7 @@
 |2346번|풍선 터뜨리기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/09/problem-solve-2346.html)|
 |2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
 |2442번|||
+|2467번|||
 |2562번|||
 |2565번|||
 |2577번|||
@@ -86,6 +87,7 @@
 |3085번|||
 |3190번|||
 |4344번|||
+|4386번|||
 |4673번|||
 |4803번|트리|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/29/problem-solve-4803.html)|
 |4948번|베르트랑 공준|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-4948.html)|
