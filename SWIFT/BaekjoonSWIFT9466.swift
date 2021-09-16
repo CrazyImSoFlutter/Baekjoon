@@ -49,12 +49,44 @@ final class FileIO {
     }
 }
 
+var student = [Int]()
+var visit = [Bool]()
+var check = [Bool]()
+var count = 0
+
+func DFS(_ index: Int) {
+    let next = student[index]
+    visit[index] = true
+    if !visit[next] {
+        DFS(next)
+    } else {
+        if !check[next] {
+            var i = next
+            while i != index {
+                count += 1
+                i = student[i]
+            }
+            count += 1
+        }
+    }
+    check[index] = true
+}
+
 var file = FileIO()
 
 for _ in 0..<file.readInt() {
     let n = file.readInt()
-    var student = Array(repeating: 0, count: n)
-    for i in 0..<n {
-        student
+    student = Array(repeating: 0, count: n + 1)
+    visit = Array(repeating: false, count: n + 1)
+    check = Array(repeating: false, count: n + 1)
+    for i in 1...n {
+        student[i] = file.readInt()
     }
+    count = 0
+    for i in 1...n {
+        if !visit[i] {
+            DFS(i)
+        }
+    }
+    print(n - count)
 }
