@@ -13,6 +13,7 @@
 |1005번|||
 |1011번|Fly me to the Alpha Centauri|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1011.html)|
 |1012번|||
+|1016번|||
 |1019번|책 페이지|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/27/problem-solve-1019.html)|
 |1021번|회전하는 큐|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1021.html)|
 |1065번|한수|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/29/problem-solve-1065.html)|
@@ -74,6 +75,7 @@
 |2473번|||
 |2562번|||
 |2565번|||
+|2568번|||
 |2577번|||
 |2579번|||
 |2609번|||
@@ -142,10 +144,12 @@
 |11725번|트리의 부모 찾기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-11725.html)|
 |11866번|||
 |12015번|||
+|12738번|||
 |12852번|||
 |12865번|||
 |13549번|||
-|14003번|가장 긴 증가하는 부분 수열 5||
+|13711번|||
+|14003번|가장 긴 증가하는 부분 수열 5|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/18/problem-solve-14003.html)|
 |14225번|부분수열의 합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/07/problem-solve-14225.html)|
 |14285번|||
 |14499번|||
