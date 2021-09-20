@@ -51,19 +51,42 @@ final class FileIO {
 
 var file = FileIO()
 let N = file.readInt()
-var A = Set<Int>()
-for _ in 0..<N {
-    A.insert(file.readInt())
+var A = Array(repeating: 0, count: N)
+for i in 0..<N {
+    A[i] = file.readInt()
 }
 let M = file.readInt()
-var X = [Int]()
-for _ in 0..<M {
-    X.append(file.readInt())
+var X = Array(repeating: 0, count: M)
+for i in 0..<M {
+    X[i] = file.readInt()
 }
 var answer = ""
 
-for i in X {
-    answer += A.contains(i) ? "1\n" : "0\n"
+A.sort()
+
+func binarySearch(_ target: Int) -> Bool {
+    var start = 0
+    var end = A.count - 1
+    var mid = (end + start) / 2
+
+    while (end - start) >= 0 {
+        if A[mid] == target {
+            return true
+        } else if A[mid] <= target {
+            start = mid + 1
+        } else {
+            end = mid - 1
+        }
+        mid = (end + start) / 2
+    }
+    return false
 }
 
+for i in X {
+    if binarySearch(i) {
+        answer += "1\n"
+    } else {
+        answer += "0\n"
+    }
+}
 print(answer)
