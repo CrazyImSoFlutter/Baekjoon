@@ -46,7 +46,7 @@
 |1654번|||
 |1707번|||
 |1717번|집합의 표현|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-1717.html)|
-|1744번|||
+|1744번|수 묶기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/24/problem-solve-1744.html)|
 |1747번|소수&팰린드롬|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/19/problem-solve-1747.html)|
 |1753번|최단경로|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/05/problem-solve-1753.html)|
 |1759번|||
@@ -78,7 +78,7 @@
 |2342번|||
 |2346번|풍선 터뜨리기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/09/problem-solve-2346.html)|
 |2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
-|2437번|||
+|2437번|저울|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/24/problem-solve-2437.html)|
 |2442번|||
 |2467번|||
 |2473번|||
