@@ -69,6 +69,7 @@
 |1967번|트리의 지름|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1967.html)|
 |1987번|알파벳|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/15/problem-solve-1987.html)|
 |1991번|트리 순회|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/30/problem-solve-1991.html)|
+|2042번|||
 |2108번|||
 |2143번|||
 |2156번|||
@@ -79,6 +80,7 @@
 |2292번|||
 |2342번|||
 |2346번|풍선 터뜨리기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/09/problem-solve-2346.html)|
+|2357번|||
 |2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
 |2437번|저울|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/24/problem-solve-2437.html)|
 |2442번|||
@@ -102,6 +104,7 @@
 |3052번|||
 |3085번|사탕 게임|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/17/problem-solve-3085.html)|
 |3190번|||
+|4195번|||
 |4344번|||
 |4386번|||
 |4673번|||
@@ -146,6 +149,8 @@
 |11053번|||
 |11054번|||
 |11399번|ATM|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/11/problem-solve-11399.html)|
+|11401번|||
+|11402번|||
 |11404번|||
 |11444번|||
 |11505번|||
@@ -190,3 +195,4 @@
 |18870번|||
 |20040번|||
 |22941번|RPG 마스터 오명진|[Link](https://codinggorani.com/백준%20boj/2021/09/27/problem-solve-22941.html)|
+|23034번|||
