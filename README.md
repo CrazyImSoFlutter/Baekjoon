@@ -80,6 +80,7 @@
 |2292번|||
 |2342번|||
 |2346번|풍선 터뜨리기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/09/problem-solve-2346.html)|
+|2352번|||
 |2357번|||
 |2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
 |2437번|저울|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/24/problem-solve-2437.html)|
@@ -117,6 +118,7 @@
 |5622번|||
 |5639번|||
 |6549번|||
+|7453번|||
 |7569번|||
 |8958번|||
 |9020번|골드바흐의 추측|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-9020.html)|
