@@ -52,6 +52,7 @@
 |1747번|소수&팰린드롬|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/19/problem-solve-1747.html)|
 |1753번|최단경로|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/05/problem-solve-1753.html)|
 |1759번|||
+|1780번|종이의 개수|[Link](https://codinggorani.com/백준%20boj/2021/09/30/problem-solve-1780.html)|
 |1786번|||
 |1806번|||
 |1821번|||
