@@ -92,7 +92,7 @@
 |2562번|||
 |2565번|||
 |2568번|||
-|2571번|||
+|2571번|색종이 - 3|[Link](https://codinggorani.com/백준%20boj/2021/10/01/problem-solve-2571.html)|
 |2577번|||
 |2579번|계단 오르기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/21/problem-solve-2579.html)|
 |2609번|||
