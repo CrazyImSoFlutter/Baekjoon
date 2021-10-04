@@ -178,6 +178,7 @@
 |13711번|||
 |14003번|가장 긴 증가하는 부분 수열 5|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/18/problem-solve-14003.html)|
 |14225번|부분수열의 합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/07/problem-solve-14225.html)|
+|14267번|||
 |14285번|||
 |14499번|||
 |14502번|||
