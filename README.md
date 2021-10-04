@@ -200,7 +200,7 @@
 |17404번|||
 |18111번|마인크래프트|[Link](https://codinggorani.com/백준%20boj/2021/09/28/problem-solve-18111.html)|
 |18258번|||
-|18870번|||
+|18870번|좌표 압축|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/04/problem-solve-18870.html)|
 |20040번|||
 |22941번|RPG 마스터 오명진|[Link](https://codinggorani.com/백준%20boj/2021/09/27/problem-solve-22941.html)|
 |23034번|||
