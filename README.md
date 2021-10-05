@@ -88,7 +88,7 @@
 |2407번|조합|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/13/problem-solve-2407.html)|
 |2437번|저울|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/24/problem-solve-2437.html)|
 |2442번|||
-|2467번|||
+|2467번|용액|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/05/problem-solve-2467.html)|
 |2473번|||
 |2562번|||
 |2565번|||
