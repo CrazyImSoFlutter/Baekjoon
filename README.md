@@ -98,6 +98,7 @@
 |2579번|계단 오르기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/21/problem-solve-2579.html)|
 |2609번|||
 |2610번|||
+|2662번|기업투자|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/06/problem-solve-2662.html)|
 |2675번|||
 |2775번|||
 |2805번|||
