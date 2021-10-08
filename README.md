@@ -127,6 +127,7 @@
 |7569번|||
 |8958번|||
 |9020번|골드바흐의 추측|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-9020.html)|
+|9095번|1, 2, 3 더하기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/08/problem-solve-9095.html)|
 |9184번|||
 |9372번|||
 |9251번|||
