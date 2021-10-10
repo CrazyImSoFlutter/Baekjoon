@@ -64,7 +64,7 @@
 |1874번|||
 |1912번|||
 |1916번|||
-|1918번|||
+|1918번|후위 표기식|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/09/problem-solve-1918.html)|
 |1920번|수 찾기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/20/problem-solve-1920.html)|
 |1931번|||
 |1932번|||
@@ -163,7 +163,7 @@
 |11399번|ATM|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/11/problem-solve-11399.html)|
 |11401번|||
 |11402번|||
-|11404번|||
+|11404번|플로이드|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/26/problem-solve-11404.html)|
 |11444번|||
 |11505번|||
 |11650번|||
