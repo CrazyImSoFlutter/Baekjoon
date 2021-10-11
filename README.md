@@ -40,6 +40,7 @@
 |1456번|||
 |1459번|||
 |1463번|||
+|1477번|||
 |1493번|박스 채우기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/02/problem-solve-1493.html)|
 |1541번|||
 |1546번|||
@@ -121,6 +122,7 @@
 |4948번|베르트랑 공준|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-4948.html)|
 |4949번|||
 |5052번|전화번호 목록|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/16/problem-solve-5052.html)|
+|5086번|||
 |5427번|불|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/26/problem-solve-5427.html)|
 |5430번|||
 |5622번|||
