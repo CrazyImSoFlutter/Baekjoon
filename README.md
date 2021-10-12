@@ -69,6 +69,7 @@
 |1920번|수 찾기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/20/problem-solve-1920.html)|
 |1931번|||
 |1932번|||
+|1934번|||
 |1946번|||
 |1966번|||
 |1967번|트리의 지름|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-1967.html)|
