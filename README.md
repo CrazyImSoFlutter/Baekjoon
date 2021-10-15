@@ -114,6 +114,7 @@
 |2941번|||
 |2981번|||
 |3009번|||
+|3036번|링|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/15/problem-solve-3036.html)|
 |3052번|||
 |3085번|사탕 게임|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/17/problem-solve-3085.html)|
 |3190번|||
