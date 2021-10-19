@@ -181,6 +181,7 @@
 |11660번|||
 |11720번|||
 |11725번|트리의 부모 찾기|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/08/28/problem-solve-11725.html)|
+|11726번|2xn 타일링|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/17/problem-solve-11726.html)|
 |11866번|||
 |12015번|||
 |12738번|||
