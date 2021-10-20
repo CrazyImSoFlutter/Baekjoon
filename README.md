@@ -149,7 +149,6 @@
 |9527번|||
 |9663번|||
 |9935번|문자열 폭발|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/23/problem-solve-9935.html)|
-|11052번|||
 |10250번|||
 |10423번|||
 |10802번|||
@@ -166,8 +165,10 @@
 |10942번|||
 |11047번|동전 0|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/10/14/problem-solve-11047.html)|
 |11050번|||
+|11052번|||
 |11053번|||
 |11054번|||
+|11057번|||
 |11399번|ATM|[Link](https://codinggorani.com/%EB%B0%B1%EC%A4%80%20boj/2021/09/11/problem-solve-11399.html)|
 |11401번|||
 |11402번|||
