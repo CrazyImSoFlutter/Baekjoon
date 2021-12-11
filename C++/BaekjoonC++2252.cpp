@@ -52,14 +52,13 @@ void topology() {
         if (Q.empty()) {
             break ;
         }
-        printf("1");
         x = Q.front();
         Q.pop();
         result[i] = x;
         for (int i = 0; i < ary[x].size(); i++) {
             int y = ary[x][i];
             
-            if (--degree[i] == 0)
+            if (--degree[ary[x][i]] == 0)
                 Q.push(y);
         }
     }
