@@ -9,11 +9,7 @@ func hansu(_ k: Int) -> Bool {
         let a = Int(String(j))!
         arr.append(a)
     }
-    if arr.count == 1 {
-        return true
-    } else {
-        checker = arr[0] - arr[1]
-    }
+    checker = arr[0] - arr[1]
     for i in 0..<(arr.count - 1) {
         if checker != arr[i] - arr[i + 1] {
             return false
@@ -22,10 +18,15 @@ func hansu(_ k: Int) -> Bool {
     return true
 }
 
-for i in 1...N {
-    if hansu(i) == true {
-        counter += 1
+if N < 100 {
+    print(N);
+} else {
+    counter += 99
+    for i in 100...N {
+        if hansu(i) == true {
+            counter += 1
+        }
     }
+    print(counter)
 }
 
-print(counter)
