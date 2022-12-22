@@ -8,4 +8,4 @@
 
 풀이 블로그입니다▼
 
-https://noguen.oopy.io
+https://noguen.com
