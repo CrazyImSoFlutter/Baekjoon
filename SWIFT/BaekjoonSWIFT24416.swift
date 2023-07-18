@@ -15,9 +15,5 @@ func code1(num: Int) -> Int {
     }
 }
 
-func code2 (num: Int) {
-    
-    
-}
-
-print(code1(num: 30))
+print(code1(num: N), terminator: " ")
+print(N - 2)
