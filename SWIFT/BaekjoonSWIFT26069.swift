@@ -1,6 +1,7 @@
 let N = Int(readLine()!)!
 var people = [String : Bool]()
 var count = 0
+var aa : Set<Int>
 
 for _ in 0..<N {
     let AB = readLine()!.split(separator: " ").map { String($0) }
