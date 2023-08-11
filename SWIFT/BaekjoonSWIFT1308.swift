@@ -9,32 +9,34 @@ func isLeap(_ year: Int) -> Bool {
         return false
     } else if year % 4 == 0 {
         return true
-    } else {
-        return true
     }
+    return false
 }
 
 func day(_ year: Int, _ month: Int, _ day: Int) -> Int {
-    var ret = 0
+    var ret: Int = 0
     
-    for i in 1...year {
+    
+    for i in 0..<year {
         if isLeap(i) {
             ret += 366
         } else {
             ret += 365
         }
     }
-    for i in 1...month {
+
+    
+    for i in 1..<month {
         if i == 2 && isLeap(year) {
             ret += 29
         } else {
-            ret += Int(months[i - 1])
+            ret += months[i - 1]
         }
     }
     return ret + day
 }
 
-if secondDay[0] - firstDay[0] > 1000 || (secondDay[0] - firstDay[0] >= 1000 && day(0, secondDay[1], secondDay[2]) >= day(0, firstDay[1], secondDay[2])) {
+if secondDay[0] - firstDay[0] >= 1000 && day(0, firstDay[1], firstDay[2]) <= day(0, secondDay[1], secondDay[2]) {
     print("gg")
 } else {
     print("D-\(day(secondDay[0], secondDay[1], secondDay[2]) - day(firstDay[0], firstDay[1], firstDay[2]))")
