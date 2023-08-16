@@ -138,17 +138,17 @@ var file = FileIO()
 let INF = 987654321
 let N = file.readInt()
 let E = file.readInt()
-var info = Array(repeating: [(Int, Int)](), count: N + 1)
+var V = Array(repeating: [(Int, Int)](), count: N + 1)
 var distance = Array(repeating: INF, count: N + 1)
 var v1 = 0, v2 = 0
-var answer = Int.max
+var answer = INF
 
 for _ in 0..<E {
     let a = file.readInt()
     let b = file.readInt()
     let c = file.readInt()
-    info[a].append((b, c))
-    info[b].append((a, c))
+    V[a].append((b, c))
+    V[b].append((a, c))
 }
 
 v1 = file.readInt()
@@ -162,38 +162,49 @@ func dijkstra(_ start: Int) {
 
     while !Q.isEmpty {
         let now = Q.delete()!
-        if distance[now.node] < now.cost {
-            continue
-        }
-        for next in info[now.node] {
-            if now.cost + next.1 < distance[next.0] {
-                distance[next.0] = now.cost + next.1
-                Q.insert(Data(cost: now.cost + next.1, node: next.0))
+        let cost = -now.cost
+        let cur = now.node
+
+        for i in 0..<V[cur].count {
+            let next = V[cur][i].0
+            let nextCost = V[cur][i].1
+            if distance[next] > cost + nextCost {
+                distance[next] = cost + nextCost
+                Q.insert(Data(cost: -distance[next], node: next))
             }
         }
     }
 }
 
+var flag1 = true, flag2 = true
+
 dijkstra(1)
-let startToV1 = distance[v1]
-let startToV2 = distance[v1]
+var route1 = distance[v1]
+var route2 = distance[v2]
+if route1 == INF { flag1 = false }
+if route2 == INF { flag2 = false }
 
 distance = Array(repeating: INF, count: N + 1)
-
 dijkstra(v1)
-let V1ToV2 = distance[v2]
-let V1ToN = distance[N]
+if flag1 == true { route1 += distance[v2] }
+if flag2 == true { route2 += distance[v2] }
 
 distance = Array(repeating: INF, count: N + 1)
-
 dijkstra(v2)
-let V2ToN = distance[N]
+if flag1 == true { route1 += distance[N] }
 
-answer = min(answer, startToV1 + V1ToV2 + V2ToN)
-answer = min(answer, startToV2 + V1ToV2 + V1ToN)
+distance = Array(repeating: INF, count: N + 1)
+dijkstra(v1)
+if flag2 == true { route2 += distance[N] }
 
-if V1ToV2 == INF || answer >= INF {
-    print(-1)
+if flag1 == false && flag2 == false {
+    answer = -1
 } else {
-    print(answer)
+    answer = min(route1, route2)
 }
+
+if answer >= INF {
+    answer = -1
+}
+
+print(answer)

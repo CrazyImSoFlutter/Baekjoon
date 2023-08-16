@@ -1,59 +1,114 @@
 import Foundation
 
-let N = Int(readLine()!)!
-var tree = [(Int, Int, Int)]()
-var arr = [Int]()
-var visit = Array(repeating: false, count: N)
-
-for _ in 0..<N {
-    let info = readLine()!.split(separator: " ").map { Int(String($0))! }
-    tree.append((info[0], info[1], info[2]))
-}
-
-func check(_ fence: Int, _ tmp: [(Int, Int, Int)]) -> Bool {
-    let maxX = (tmp.max(by: { $0.0 < $1.0 }) ?? (0, 0, 0)).0
-    let maxY = (tmp.max(by: { $0.1 < $1.1 }) ?? (0, 0, 0)).1
-    let minX = (tmp.min(by: { $0.0 < $1.0 }) ?? (0, 0, 0)).0
-    let minY = (tmp.min(by: { $0.1 < $1.1 }) ?? (0, 0, 0)).1
-    if fence >= (maxX - minX) * 2 + (maxY - minY) * 2 {
-        return true
-    }
-    return false
-}
-
-func dfs(_ m: Int, _ depth: Int) {
-    if depth == m {
-        var sum = 0
-        var tmp = tree
-        for i in stride(from: m - 1, through: 0, by: -1) {
-            sum += tmp[arr[i]].2
-            tmp.remove(at: arr[i])
-        }
-        if check(sum, tmp) {
-            print(m)
-            exit(0)
-        }
-        return
+final class FileIO {
+    private var buffer:[UInt8]
+    private var index: Int
+    
+    init(fileHandle: FileHandle = FileHandle.standardInput) {
+        buffer = Array(fileHandle.readDataToEndOfFile())+[UInt8(0)]
+        index = 0
     }
     
-    for i in 0..<N {
-        if visit[i] == false {
-            visit[i] = true
-            if depth != 0 {
-                if arr[depth - 1] < i {
-                    arr[depth] = i
-                    dfs(m, depth + 1)
+    @inline(__always) private func read() -> UInt8 {
+        defer { index += 1 }
+        
+        return buffer.withUnsafeBufferPointer { $0[index] }
+    }
+    
+    @inline(__always) func readInt() -> Int {
+        var sum = 0
+        var now = read()
+        var isPositive = true
+        
+        while now == 10
+                || now == 32 { now = read() }
+        if now == 45{ isPositive.toggle(); now = read() }
+        while now >= 48, now <= 57 {
+            sum = sum * 10 + Int(now-48)
+            now = read()
+        }
+        
+        return sum * (isPositive ? 1:-1)
+    }
+    
+    @inline(__always) func readString() -> String {
+        var str = ""
+        var now = read()
+        
+        while now == 10
+                || now == 32 { now = read() }
+        
+        while now != 10
+                && now != 32 && now != 0 {
+            str += String(bytes: [now], encoding: .ascii)!
+            now = read()
+        }
+        
+        return str
+    }
+}
+
+
+let file = FileIO()
+var trees = [Int]()
+let N = file.readInt()
+var X = Array(repeating: 0, count: N)
+var Y = Array(repeating: 0, count: N)
+var sortedX = Array(repeating: 0, count: N)
+var sortedY = Array(repeating: 0, count: N)
+var fence = Array(repeating: 0, count: N)
+var answer = 9876543210
+
+
+for i in 0..<N {
+    X[i] = file.readInt()
+    Y[i] = file.readInt()
+    fence[i] = file.readInt()
+    sortedX[i] = X[i]
+    sortedY[i] = Y[i]
+}
+
+sortedX.sort(by: <)
+sortedY.sort(by: <)
+
+var innerTree = [Int]()
+
+for wa in 0..<N {
+    for wb in wa..<N {
+        for ha in 0..<N {
+            for hb in ha..<N {
+                var count = 0, innerTreeSum = 0, outerTreeSum = 0
+                let requiredFence = 2 * (sortedX[wb] - sortedX[wa] + sortedY[hb] - sortedY[ha])
+                
+                for i in 0..<N {
+                    if X[i] >= sortedX[wa] && X[i] <= sortedX[wb] && Y[i] >= sortedY[ha] && Y[i] <= sortedY[hb] {
+                        count += 1
+                        innerTree.append(fence[i])
+                        innerTreeSum += fence[i]
+                    } else {
+                        outerTreeSum += fence[i]
+                    }
                 }
-            } else {
-                arr[depth] = i
-                dfs(m, depth + 1)
+                
+                if outerTreeSum >= requiredFence {
+                    answer = min(answer, N - count)
+                } else {
+                    if outerTreeSum + innerTreeSum >= requiredFence {
+                        innerTree.sort(by: >)
+                        for i in 0..<innerTree.count {
+                            count -= 1
+                            outerTreeSum += innerTree[i]
+                            if outerTreeSum >= requiredFence {
+                                answer = min(answer, N - count)
+                                break
+                            }
+                        }
+                    }
+                }
+                innerTree.removeAll()
             }
-            visit[i] = false
         }
     }
 }
 
-for i in 1...N {
-    arr = Array(repeating: 0, count: i)
-    dfs(i, 0)
-}
+print(answer)
