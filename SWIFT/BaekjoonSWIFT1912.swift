@@ -5,6 +5,15 @@ var sum = 0
 var flag = false
 var bigM = -1000
 
+func solve() {
+    for i in arr {
+        if i > 0 
+    }
+}
+
+
+
+
 for i in arr {
     if i > 0 {
         flag = true
