@@ -1,9 +1,11 @@
 {
-    "files.associations": {
-        "string": "cpp",
-        "ostream": "cpp",
-        "iostream": "cpp",
-        "tuple": "cpp",
-        "vector": "cpp"
-    }
+  "files.associations": {
+    "string": "cpp",
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "tuple": "cpp",
+    "vector": "cpp",
+    "ios": "cpp",
+    "queue": "cpp"
+  }
 }
